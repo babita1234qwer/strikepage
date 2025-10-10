@@ -8,7 +8,14 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    background-color:#121212;
+    background-color:#7fb3ff;
+    
+}
+.heading{
+    display:flex;
+    align-items:center;
+    color:#fff;
+    justify-content: center;
 }
 .container{
     padding:150px 0;
