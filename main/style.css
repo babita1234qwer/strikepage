@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
     background: #000;
     color: #fff;
     font-family: sans-serif;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden; 
 }
 .banner {
     width: 100%;
@@ -32,7 +32,7 @@ body {
     overflow: hidden;
 }
 
-/* Logo size adjustment */
+
 .logo {
     width: 100px;
     margin: auto;
@@ -40,14 +40,13 @@ body {
     display: block;
 }
 
-/* Wrapper padding */
+
 .wrapper {
     width: 80%;
     margin: auto;
     padding-top: 20px;
 }
 
-/* Search box styling */
 .search-box {
     display: flex;
     background: #fff;
@@ -67,7 +66,7 @@ body {
     background: transparent;
 }
 
-/* Vertical line */
+
 .vertical-line {
     width: 1px;
     height: 40vh;
@@ -75,7 +74,7 @@ body {
     margin: 30px 0 10px;
 }
 
-/* Navigation and lists */
+
 .wrapper ul li {
     list-style: none;
     margin: 10px 0;
@@ -111,7 +110,7 @@ nav ul li a:hover {
     color: #797979;
 }
 
-/* Heading */
+
 .right-box h2 {
     margin-top: 5%;
     margin-left: 60px;
@@ -119,7 +118,7 @@ nav ul li a:hover {
     letter-spacing: 3px;
 }
 
-/* Robot image */
+
 .robot {
     position: absolute;
     bottom: 0;
@@ -138,7 +137,7 @@ nav ul li a:hover {
     image-rendering: crisp-edges;
 }
 
-/* Features styling */
+
 .features {
     position: absolute;
     bottom: 17%;
@@ -168,8 +167,6 @@ nav ul li a:hover {
     font-size: 14px;
     letter-spacing: 1px;
 }
-
-/* Circle */
 .circle {
     width: 300px;
     height: 300px;
@@ -194,7 +191,7 @@ nav ul li a:hover {
     user-select: none;
 }
 
-/* Pagination */
+
 .pagination ul {
     display: flex;
     align-items: flex-end;
@@ -222,7 +219,7 @@ nav ul li a:hover {
     border-bottom: 5px solid #fff;
 }
 
-/* Volume icon */
+
 .volume {
     width: 25px;
     position: absolute;
@@ -235,7 +232,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-/* Mobile menu toggle */
+
 .menu-toggle {
     display: none;
     position: absolute;
@@ -255,9 +252,7 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
-/* ----------------------- */
-/* RESPONSIVE CHANGES BELOW */
-/* ----------------------- */
+
 
 @media (max-width: 1200px) {
     .right-box h2 {
